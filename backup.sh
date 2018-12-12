@@ -1,1 +1,1 @@
-rsync -av --exclude=".*" --exclude="Projects" --exclude="Practice" --exclude="Downloads" /home/thetinygoat/ /media/thetinygoat/Sachin
+rsync -aP --exclude=".*" --exclude="Projects" --exclude="Practice" --exclude="Downloads" /home/thetinygoat/ /media/thetinygoat/Sachin

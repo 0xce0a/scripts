@@ -1,1 +1,1 @@
-rsync -aP --exclude=".*" --exclude="Projects" --exclude="Practice" --exclude="Downloads" /home/thetinygoat/ /media/thetinygoat/Sachin
+borg create --stats --progress /run/media/ce0a/Sachin::home-{now:%Y-%m-%d} ~/Desktop ~/Courses ~/Pictures/ ~/Music ~/Movies ~/Shows ~/Documents ~/Videos
